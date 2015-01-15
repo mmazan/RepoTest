@@ -1,0 +1,2 @@
+module BookInStockHelper
+end

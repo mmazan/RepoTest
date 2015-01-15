@@ -1,0 +1,17 @@
+<h1>Strangest Places</h1>
+<p><%= link_to "Ir a radio", :action => "radio" %></p>
+<p>The time is now
+<%= Time.now %>
+</p>
+
+<p>
+In one hours time it will be:	
+<%=1.hour.from_now %>
+</p>
+
+<% for i in 2..10 %>
+<p>
+In <%= i %> hours time it will be:
+<%= i.hour.from_now%>
+</p>
+<% end %>

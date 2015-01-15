@@ -1,0 +1,13 @@
+#event_steps.rb
+
+Given(/^a new event$/) do
+  @my_event = Event.new
+end
+
+When(/^I request teh author of an event$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^I should see "(.*?)"$/) do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
